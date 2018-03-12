@@ -1,7 +1,6 @@
 //
 //  main.c
 //  tst_reorgbuddy
-//
 //  Created by Jeannot on 16/04/13.
 //  Copyright (c) 2013 Jeannot. All rights reserved.
 //
