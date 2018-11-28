@@ -32,7 +32,7 @@
 		0717C0572056C9CE0067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/Jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C06B2056D2090067AFD5 /* EIIN in CopyFiles */,
@@ -42,7 +42,7 @@
 		0717C0722056D3FC0067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/Jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C07C2056D4D50067AFD5 /* EII in CopyFiles */,
@@ -52,7 +52,7 @@
 		0717C0822056D53F0067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/Jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C08D2056D6E60067AFD5 /* pi in CopyFiles */,
@@ -62,7 +62,7 @@
 		0717C0922056D7380067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /users/Jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C0932056D7380067AFD5 /* pi in CopyFiles */,
@@ -72,7 +72,7 @@
 		0717C09F2056DAD80067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C0A72056DB5B0067AFD5 /* pb_monde6 in CopyFiles */,
@@ -82,7 +82,7 @@
 		0717C0AC2056DB7E0067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/Jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -91,7 +91,7 @@
 		0717C0B82056DD020067AFD5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C0BF2056DD6D0067AFD5 /* tst_reorgbuddy in CopyFiles */,
@@ -101,7 +101,7 @@
 		073F2CDC2056E13700ADDE2C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				073F2CE42056E1A100ADDE2C /* recurse in CopyFiles */,
@@ -111,7 +111,7 @@
 		07B665CA2056A81D00C85F9B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/WORK/bin";
+			dstPath = /Users/Jeannot/WORK/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				0717C0522056C9A30067AFD5 /* suduku in CopyFiles */,
@@ -215,14 +215,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0717C08A2056D6140067AFD5 /* suduku */ = {
-			isa = PBXGroup;
-			children = (
-				07B665CF2056AA6100C85F9B /* suduku.c */,
-			);
-			name = suduku;
-			sourceTree = "<group>";
-		};
 		0717C08B2056D62F0067AFD5 /* EIIN */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,34 +231,17 @@
 			name = EIIN;
 			sourceTree = "<group>";
 		};
-		0717C08C2056D64E0067AFD5 /* pi */ = {
-			isa = PBXGroup;
-			children = (
-				0717C0882056D5660067AFD5 /* pi.c */,
-			);
-			name = pi;
-			sourceTree = "<group>";
-		};
-		0717C09A2056DAB00067AFD5 /* magicN */ = {
-			isa = PBXGroup;
-			children = (
-				0717C0982056D75D0067AFD5 /* magicN.c */,
-			);
-			name = magicN;
-			sourceTree = "<group>";
-		};
 		07B665AC2056A7F800C85F9B = {
 			isa = PBXGroup;
 			children = (
+				0717C0882056D5660067AFD5 /* pi.c */,
+				0717C0982056D75D0067AFD5 /* magicN.c */,
 				073F2CE22056E16200ADDE2C /* recurse.c */,
 				0717C0BD2056DD2D0067AFD5 /* tst_reorgbuddy.c */,
 				0717C0B22056DB9E0067AFD5 /* sum_gril.c */,
+				07B665CF2056AA6100C85F9B /* suduku.c */,
 				0717C0A52056DB0B0067AFD5 /* pb_monde6.c */,
-				0717C09A2056DAB00067AFD5 /* magicN */,
-				0717C08C2056D64E0067AFD5 /* pi */,
 				0717C08B2056D62F0067AFD5 /* EIIN */,
-				0717C08A2056D6140067AFD5 /* suduku */,
-				07B665B72056A7F800C85F9B /* games */,
 				07B665B62056A7F800C85F9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -285,13 +260,6 @@
 				073F2CE12056E13700ADDE2C /* recurse */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		07B665B72056A7F800C85F9B /* games */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = games;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
