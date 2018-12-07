@@ -25,6 +25,7 @@
 		0717C0BF2056DD6D0067AFD5 /* tst_reorgbuddy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0717C0BC2056DD020067AFD5 /* tst_reorgbuddy */; };
 		073F2CE32056E16200ADDE2C /* recurse.c in Sources */ = {isa = PBXBuildFile; fileRef = 073F2CE22056E16200ADDE2C /* recurse.c */; };
 		073F2CE42056E1A100ADDE2C /* recurse in CopyFiles */ = {isa = PBXBuildFile; fileRef = 073F2CE12056E13700ADDE2C /* recurse */; };
+		07AF046B21AF0F9000AF385E /* acutange.c in Sources */ = {isa = PBXBuildFile; fileRef = 07AF046921AF073100AF385E /* acutange.c */; };
 		07B665D02056AA6100C85F9B /* suduku.c in Sources */ = {isa = PBXBuildFile; fileRef = 07B665CF2056AA6100C85F9B /* suduku.c */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07AF046021AF06DE00AF385E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		07B665CA2056A81D00C85F9B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -144,6 +154,8 @@
 		0717C0BD2056DD2D0067AFD5 /* tst_reorgbuddy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = tst_reorgbuddy.c; path = games/tst_reorgbuddy.c; sourceTree = "<group>"; };
 		073F2CE12056E13700ADDE2C /* recurse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = recurse; sourceTree = BUILT_PRODUCTS_DIR; };
 		073F2CE22056E16200ADDE2C /* recurse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = recurse.c; path = games/recurse.c; sourceTree = "<group>"; };
+		07AF046221AF06DE00AF385E /* acutangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = acutangle; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AF046921AF073100AF385E /* acutange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = acutange.c; path = games/acutange.c; sourceTree = "<group>"; };
 		07B665CE2056A81D00C85F9B /* suduku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = suduku; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B665CF2056AA6100C85F9B /* suduku.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = suduku.c; path = games/suduku.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +217,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07AF045F21AF06DE00AF385E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07B665C92056A81D00C85F9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +253,7 @@
 		07B665AC2056A7F800C85F9B = {
 			isa = PBXGroup;
 			children = (
+				07AF046921AF073100AF385E /* acutange.c */,
 				0717C0882056D5660067AFD5 /* pi.c */,
 				0717C0982056D75D0067AFD5 /* magicN.c */,
 				073F2CE22056E16200ADDE2C /* recurse.c */,
@@ -258,6 +278,7 @@
 				0717C0B12056DB7E0067AFD5 /* sum_gril */,
 				0717C0BC2056DD020067AFD5 /* tst_reorgbuddy */,
 				073F2CE12056E13700ADDE2C /* recurse */,
+				07AF046221AF06DE00AF385E /* acutangle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -401,6 +422,23 @@
 			productReference = 073F2CE12056E13700ADDE2C /* recurse */;
 			productType = "com.apple.product-type.tool";
 		};
+		07AF046121AF06DE00AF385E /* acutangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AF046821AF06DE00AF385E /* Build configuration list for PBXNativeTarget "acutangle" */;
+			buildPhases = (
+				07AF045E21AF06DE00AF385E /* Sources */,
+				07AF045F21AF06DE00AF385E /* Frameworks */,
+				07AF046021AF06DE00AF385E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acutangle;
+			productName = acutangle;
+			productReference = 07AF046221AF06DE00AF385E /* acutangle */;
+			productType = "com.apple.product-type.tool";
+		};
 		07B665C72056A81D00C85F9B /* suduku */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07B665CB2056A81D00C85F9B /* Build configuration list for PBXNativeTarget "suduku" */;
@@ -430,6 +468,10 @@
 					0717C0532056C9CE0067AFD5 = {
 						ProvisioningStyle = Manual;
 					};
+					07AF046121AF06DE00AF385E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					07B665C72056A81D00C85F9B = {
 						ProvisioningStyle = Manual;
 					};
@@ -456,6 +498,7 @@
 				0717C0A82056DB7E0067AFD5 /* sum_gril */,
 				0717C0B42056DD020067AFD5 /* tst_reorgbuddy */,
 				073F2CD82056E13700ADDE2C /* recurse */,
+				07AF046121AF06DE00AF385E /* acutangle */,
 			);
 		};
 /* End PBXProject section */
@@ -524,6 +567,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				073F2CE32056E16200ADDE2C /* recurse.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AF045E21AF06DE00AF385E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF046B21AF0F9000AF385E /* acutange.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +754,53 @@
 				ENABLE_TESTABILITY = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		07AF046621AF06DE00AF385E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AF046721AF06DE00AF385E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -887,6 +985,15 @@
 			buildConfigurations = (
 				073F2CDF2056E13700ADDE2C /* Debug */,
 				073F2CE02056E13700ADDE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AF046821AF06DE00AF385E /* Build configuration list for PBXNativeTarget "acutangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AF046621AF06DE00AF385E /* Debug */,
+				07AF046721AF06DE00AF385E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
