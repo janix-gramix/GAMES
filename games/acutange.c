@@ -2,7 +2,7 @@
 //  acutange.c
 //
 //  Created by Jeannot on 28/11/2018.
-//  Copyright © 2018 Jeannot. All rights reserved.
+//
 //
 
 #include <stdio.h>
